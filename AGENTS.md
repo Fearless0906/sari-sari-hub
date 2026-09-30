@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Inventory data lives in the client-side store `src/lib/inventory.ts` (useSyncExternalStore) — no backend is connected yet, so all pages read/write through it.
